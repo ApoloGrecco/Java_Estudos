@@ -29,5 +29,7 @@ public class exercicio_4 {
 
         System.out.println("Número do funcionário:" + numero_funcionario);
         System.out.printf("Salário do funcionário: %.2f", salary);
+
+        sc.close();
     }
 }

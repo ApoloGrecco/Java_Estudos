@@ -21,5 +21,7 @@ public class exercicio_1 {
 
         System.out.println("A soma dos valores é de: " + soma);
 
+        sc.close();
+
     }
 }

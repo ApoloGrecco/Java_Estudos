@@ -25,6 +25,8 @@ public class exercicio_2 {
 
         System.out.printf("O valor da área do circulo é de %.4f", area);
 
+        sc.close();
+
 
     }
 }

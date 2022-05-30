@@ -49,6 +49,7 @@ public class exercicio_6 {
         System.out.printf("Área do Quadrado: %.3f%n", quadrado);
         System.out.printf("Área do Retângulo: %.3f%n", retangulo);
 
+        sc.close();
 
     }
 }

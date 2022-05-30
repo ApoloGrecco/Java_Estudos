@@ -30,5 +30,7 @@ public class exercicio_3 {
 
         System.out.println("A diferença entre o produto A e B pelo produto C e D: " + diferenca);
 
+        sc.close();
+
     }
 }

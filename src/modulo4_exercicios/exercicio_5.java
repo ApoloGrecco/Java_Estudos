@@ -36,6 +36,6 @@ public class exercicio_5 {
         System.out.println(code2);
         System.out.printf("Valor total a ser pago: %.2f", total);
 
-
+        sc.close();
     }
 }
