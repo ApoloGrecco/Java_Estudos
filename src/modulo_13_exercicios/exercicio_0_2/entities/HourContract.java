@@ -1,6 +1,6 @@
 package modulo_13_exercicios.exercicio_0_2.entities;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class HourContract {
 
@@ -10,6 +10,13 @@ public class HourContract {
 
     public HourContract() {
     }
+
+    public HourContract(Date date, double valuePerHour, int hours) {
+        this.date = date;
+        this.valuePerHour = valuePerHour;
+        this.hours = hours;
+    }
+
     public Date getDate() {
         return date;
     }
